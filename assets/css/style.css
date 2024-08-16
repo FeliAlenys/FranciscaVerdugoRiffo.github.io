@@ -28,6 +28,12 @@ nav{
 
 }
 
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000;
+  }
+
 
 /*ACERCA DE MI*/
 
@@ -86,3 +92,20 @@ h2{
     font-weight: 700;
     color: #373a3c;
   }
+
+/* Estilo base del botón */
+.contacto .btn-warning {
+    transition: all 0.3s ease; /* Aplica transición a todas las propiedades durante 0.3 segundos */
+    border: 2px solid #f8f9fa; /* Opcional: agregar borde para mejorar la visibilidad */
+    padding: 10px 20px; /* Ajusta el tamaño del botón según tus necesidades */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    background-color: #ffc107; /* Color de fondo del botón */
+    color: #212529; /* Color del texto del botón */
+}
+
+/* Estilo del botón al pasar el cursor sobre él */
+.contacto .btn-warning:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al 110% */
+    background-color: #e0a800; /* Color de fondo al pasar el cursor (opcional) */
+    color: #fff; /* Color del texto al pasar el cursor (opcional) */
+}
